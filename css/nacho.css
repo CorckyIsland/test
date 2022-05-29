@@ -2,6 +2,11 @@
 /* Website Body */
 
 body{
+	background-image: url(../img/Background.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	background-color: cornsilk;
 	margin: 0;
 	font-family: Verdana, Arial, sans-serif;
@@ -40,10 +45,12 @@ h2{
 	margin: 40px 0 10px;
 }
 
+/* main costomization */
 main{
 	max-width: 810px;
 	margin: 0 auto;
 	padding: 20px;
+	background: rgba(255, 248, 220, .85);
 }
 
 a{
@@ -79,8 +86,7 @@ footer a:hover{
 /* classes */
 
 p.caption{
-	color: burlywood;
-	opacity: .9;
+	color: goldenrod;
 	font-style: italic;
 	margin-top: 0;
 }
